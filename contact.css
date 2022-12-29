@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.bk
+{
+    background-image: url("ph/contact.jpg");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+.overlay {
+    position: absolute;
+    bottom: 100px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    transition: 1.5s ease;
+    opacity:0;
+    color: rgb(199, 131, 28);
+    font-size: 60px;
+    padding: 50px;
+    text-align: left;
+}
+.bk:hover .overlay {
+    opacity: 1;
+}
+nav{
+    position: fixed;
+    background-color: rgb(25, 91, 91);
+    height: 100px;
+    width: 100%;
+}
+
+.logo{
+    height: 100px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 10px;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+    padding-right: 50px;
+}
+
+.brandname{
+    padding-right: 350px;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(228, 205, 205);
+    font-size: 22px;
+}
+
+nav ul li a:hover
+{
+    color: rgb(32, 232, 29);
+    transition: .3s;
+}
+a:is(:link, :active, :visited).active{
+    color: rgb(86, 249, 37);
+    
+}
+.phr1{
+    width: 1300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    margin-top: 4%;
+}
+.msg{
+    width: 650px;
+    
+}
+.cntct{
+    width: 650px;
+    margin-left: 10%;
+    
+}
+.c1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 4%;
+    font-weight: bold;
+}
+.info{
+    font-size: 20px;
+}
+.img{
+    width: 600px;
+    margin-top: 4%;
+}
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.bt {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.footer{
+    width: 1400px;
+    height: 440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 60px;
+    margin-left: 35px;
+    background-color:rgb(25, 91, 91) ;
+  }
+.fp1{
+   
+    height: 500px; 
+    font-size: 20px;
+    margin-left: 2%;
+}
+.fl{
+    list-style: none;
+    margin-top: 5%;
+    color: antiquewhite;
+}
+.fli{
+    margin-left: 13%;
+    margin-top: 5%;
+    color: antiquewhite;
+
+}
+.fm{
+    font-weight: bold;
+    color: antiquewhite;
+    margin-top: 20px;
+}
+.ftl{
+    width: 200px;
+    height: 160px;
+    margin-top: 5%;
+    margin-left: 75px;
+
+}

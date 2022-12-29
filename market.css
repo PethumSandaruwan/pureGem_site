@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.bk
+{
+    background-image: url("ph/market.jpg");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}     
+
+.overlay {
+    position: absolute;
+    bottom: 100px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    transition: 1.5s ease;
+    opacity:0;
+    color: rgb(199, 131, 28);
+    font-size: 60px;
+    padding: 50px;
+    text-align: left;
+}
+.bk:hover .overlay {
+    opacity: 1;
+}
+
+nav{
+    position: fixed;
+    background-color: rgb(25, 91, 91);
+    height: 100px;
+    width: 100%;
+}
+
+.logo{
+    height: 100px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 10px;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+    padding-right: 50px;
+}
+
+.brandname{
+    padding-right: 350px;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(228, 205, 205);
+    font-size: 22px;
+}
+
+nav ul li a:hover
+{
+    color: rgb(32, 232, 29);
+    transition: .3s;
+}
+a:is(:link, :active, :visited).active{
+  color: rgb(86, 249, 37);
+  
+}
+.mq{
+    font-size: 60px;
+}
+.r1{
+    font-size: 40px;
+}
+.main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+    
+}
+.glry{
+  width: 950px;
+  height: 3800px;
+}
+.side{
+  width: 500px;
+  height: 3800px;
+  margin-top: 5%;
+}
+.phr1{
+  width: 440px;
+  height: 500px;
+  background-color: rgb(190, 190, 190);
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.main1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.phr2{
+  width: 440px;
+  height: 500px;
+  background-color: rgb(178, 178, 178);
+  margin-top: 5%;
+}
+.welcm{
+  font-size: 40px;
+  color: #04AA6D;  
+  margin-top: 4%;
+  margin-left: 4%;
+}
+.met{
+  font-size: 22px;
+  margin-left: 5%;
+  color: #eb8d00;
+}
+.item{
+  width: 200px;
+  height: 140px;
+ margin-left: 120px;
+ margin-top: 3%;
+}
+.itmn{
+  margin-left: 4%;
+  margin-top: 3%;
+  font-size: 26px;
+  margin-bottom: 4%;
+
+}
+.inf{
+  font-size: 20px;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+.ad1{
+  font-size: 25px;
+  margin-top: 4%;
+  color: #04AA6D;
+  font-weight: bold;
+}
+.m1{
+  font-size: 40px;
+  color: red;
+  margin-top: 5%;
+}
+.btn{
+  background-color: rgb(32, 114, 114); /* Green */
+  border: none;
+  color: white;
+  padding: 20px 62px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 125px;
+  margin-top: 10%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.news{
+  font-size: 40px;
+  margin-top: 4%;
+  color: #04AA6D;
+}
+.np{
+  width: 400px;
+  height: 250px;
+  margin-top: 4%;
+}
+.n1{
+  margin-top: 4%;
+  
+}
+.nhe{
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+
+.footer{
+  width: 1400px;
+  height: 440px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 60px;
+  margin-left: 35px;
+  background-color:rgb(25, 91, 91) ;
+}
+.fp1{
+ 
+  height: 500px; 
+  font-size: 20px;
+  margin-left: 2%;
+}
+.fl{
+  list-style: none;
+  margin-top: 5%;
+  color: antiquewhite;
+}
+.fli{
+  margin-left: 13%;
+  margin-top: 5%;
+  color: antiquewhite;
+
+}
+.fm{
+  font-weight: bold;
+  color: antiquewhite;
+  margin-top: 20px;
+}
+.ftl{
+  width: 200px;
+  height: 160px;
+  margin-top: 5%;
+  margin-left: 75px;
+
+}
+
+
+
+
+
